@@ -54,8 +54,6 @@ class Weapon:
     def attack_value(self) -> float:
         return self._attack_value
 
-    def __str__(self):
-        return f"{self._name} (+{self._attack_value} ATK)"
 
     @classmethod
     def default(cls):
